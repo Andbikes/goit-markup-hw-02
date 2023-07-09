@@ -18,7 +18,7 @@ body {
     list-style: none;
 }
 
-*/-------------HEADER-------------*/
+/*-------------HEADER-------------*/
  .logo-web {
     color: #4D5AE5;
     font-family: Raleway;
@@ -52,8 +52,8 @@ body {
     letter-spacing: 0.02em;
 }
 
-*/--------------MAIN------------*/
-    */-----section-btn-----*/
+/*--------------MAIN------------*/
+    /*-----section-btn-----*/
 
     .btn-h1{
     color: #FFF;
@@ -77,13 +77,11 @@ body {
         background: #4D5AE5;
 
        }
-       .btn-button:hover
-       {
-        background: #404BBF;
-        .btn-butto:hover
-       }
+       .btn-button:hover{
+        background: #404BBF;}
+    
 
-    */-----section-banner-----*/
+    /*-----section-banner-----*/
 .section-banner-subtitle{
     color: var(--navyblue);
     font-size: 20px;
@@ -100,7 +98,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-   */-----section-services-----*/
+   /*-----section-services-----*/
 
 .section-services-header{
     color: var(--navyblue);
@@ -111,7 +109,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-   */-----section-workers-----*/
+   /*-----section-workers-----*/
 
 .section-workers-heder{
     color: var(--navyblue);
