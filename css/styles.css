@@ -15,10 +15,12 @@ body {
 }
 
 .list {
-    list-style: none;
+    list-style-type: none;
 }
 
+
 /*-------------HEADER-------------*/
+
  .logo-web {
     color: #4D5AE5;
     font-family: "Raleway" sans-serif; 
@@ -28,7 +30,19 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
 } 
+
+.logo-web-studio{
+color: var(--navyblue);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 3;
+text-transform: uppercase;
+}
 
 .header-list {
     color: var(--navyblue);
@@ -37,6 +51,15 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.header-link {
+    color: var(--navyblue);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,5;
+    letter-spacing: 0.02em; 
 }
 
 .header-list:hover{
