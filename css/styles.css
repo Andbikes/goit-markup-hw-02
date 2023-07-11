@@ -236,3 +236,127 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
+/*--------PORTFOLIO--------*/
+       /*------1--------*/
+
+.btn-portfolio{
+    list-style: none;
+}
+     /*--------2--------*/
+.btn-portfolio-all{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background-color: var(--cloud);
+    cursor: pointer;
+}
+.btn-portfolio-all:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.btn-portfolio-all:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.btn-portfolio-website{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background-color: var(--cloud);
+    cursor: pointer;
+}
+.btn-portfolio-website:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.btn-portfolio-website:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.btn-portfolio-app{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background-color: var(--cloud);
+    cursor: pointer;
+}
+.btn-portfolio-app:hover:{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.btn-portfolio-app:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.btn-portfolio-desing{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background-color: var(--cloud);
+    cursor: pointer;
+}
+.btn-portfolio-desing:hover:{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.btn-portfolio-desing:focus:{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.btn-portfolio-marketihg{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background-color: var(--cloud);
+    cursor: pointer;
+}
+.btn-portfolio-marketihg:hover:{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.btn-portfolio-marketihg:focus:{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+/*-----------3----------*/
+
+.picture-portfolio-link{
+    list-style: none;
+    text-decoration: none;
+    width: 360;
+}
+
+.picture-porfolio-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+}
+
+.picture-porfolio-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
