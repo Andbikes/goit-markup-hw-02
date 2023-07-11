@@ -5,10 +5,6 @@ body {
 
 }
 
-:root {
-    --navyblue: #2E2F42;
-    --slate: #434455;
-}
 
 .link {
     text-decoration: none;
@@ -34,7 +30,7 @@ body {
 } 
 
 .logo-web-studio{
-color: var(--navyblue);
+color: #2E2F42;
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
@@ -44,8 +40,12 @@ letter-spacing: 3;
 text-transform: uppercase;
 }
 
+.studio{
+    color: #2E2F42;
+}
+
 .header-list {
-    color: var(--navyblue);
+    color: #2E2F42;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -54,7 +54,7 @@ text-transform: uppercase;
 }
 
 .header-link {
-    color: var(--navyblue);
+    color: #2E2F42;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -63,11 +63,12 @@ text-transform: uppercase;
 }
 
 .header-list:hover{
-    color: #404BBF;
+    color: #404BBF; 
 }
 
+
 .header-address {
-    color: var(--slate);
+    color: #434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -113,7 +114,7 @@ text-transform: uppercase;
     background-color:  #2e2f42:
 }
     .section-banner-subtitle{
-    color: var(--navyblue);
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -121,7 +122,7 @@ text-transform: uppercase;
 }
  
 .section-banner-text{
-    color: var(--slate);
+    color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -131,7 +132,7 @@ text-transform: uppercase;
    /*-----section-services-----*/
 
 .section-services-header{
-    color: var(--navyblue);
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -142,12 +143,38 @@ text-transform: uppercase;
 }
    /*-----section-workers-----*/
 
+   .section-workers{
+    background-color: #F4F4FD;
+   }
+
 .section-workers-heder{
-    color: var(--navyblue);
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+  
+.section-workers-list{
+    background-color: #FFFFFF;
+}
+
+.section-workers-subtitle{
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-workers-text{
+    color: #434455;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02;
 }
