@@ -244,6 +244,17 @@ letter-spacing: 0.02em;
     list-style: none;
 }
      /*--------2--------*/
+     .btn-portfolio-list{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--iris);
+        background-color: var(--cloud);
+        cursor: pointer;
+    }
+
 .btn-portfolio-link{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -284,4 +295,5 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+    text-decoration: none;
 }
