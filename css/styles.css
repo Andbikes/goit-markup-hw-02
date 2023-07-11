@@ -9,6 +9,7 @@ body {
     --iris: #4D5AE5 ;
     --navyblue: #2E2F42;
     --slate: #434455;
+    --cloud: #F4F4FD
 }
 
 .link {
@@ -179,7 +180,7 @@ color: #404bbf;
    /*-----section-workers-----*/
 
    .section-workers{
-    background-color: #F4F4FD;
+    background-color: var(--cloud);
    }
 
 .section-workers-heder{
@@ -220,10 +221,32 @@ letter-spacing: 0.02em;
     }
 
 .footer-text{
-    color: var(#F4F4FD);
+    color: var(--cloud);
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.02;
+letter-spacing: 0.02em;
+}
+
+.logofoot-web{
+    color: var(--iris);
+    font-family: "Raleway", sans-serif; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logofoot-web-studio{
+    color: var(--cloud);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
