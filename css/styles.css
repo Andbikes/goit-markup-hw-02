@@ -71,7 +71,7 @@ font-family: Raleway, sans-serif;
     letter-spacing: 0.02em;
 }
 
-.mail{
+.header-address-go{
     color: var(--slate);
 font-size: 16px;
 font-style: normal;
@@ -80,27 +80,13 @@ line-height:1.5;
 letter-spacing: 0.02em;
 }
 
-.tel{
-    color: var(--slate);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height:1.5;
-    letter-spacing: 0.02em;  
-}
-
-.mail:hover {
+.header-address-go:hover {
 color: #404bbf;
 }
-.mail:focus{
+.header-address-go:focus{
     color: #404bbf;
 }
-.tel:hover{
-    color: #404bbf;
-}
-.tel:focus{
-    color: #404BBF;
-}
+
 .menu{
     color: var(--navyblue);
 }
