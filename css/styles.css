@@ -276,6 +276,10 @@ letter-spacing: 0.02em;
 
 /*-----------3----------*/
 
+.link{
+    text-decoration: none;
+}
+
 .picture-portfolio-link{
     list-style: none;
     text-decoration: none;
